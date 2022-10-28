@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.kvadrat {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: 3px solid black;
+    position: relative;
+    animation-name: prva-animacija;
+    animation-duration: 8s;
+    top: 0;
+    left: 0;
+
+}
+
+@keyframes prva-animacija {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    8% {
+        top: 300px;
+        left: 300px;
+        background-color: darkorchid;
+    }
+
+    16% {
+        top: 300px;
+        left: 350px;
+        background-color: purple;
+    }
+ 
+    24% {
+        top: 250px;
+        left: 350px;
+        background-color: blue;
+    }
+
+    32% {
+        top: 250px;
+        left: 400px;
+        background-color: mediumslateblue;
+    }
+
+    40% {
+        background-color: blueviolet;
+        top: 300px;
+        left: 400px;
+    }
+
+    48% {
+        top: 300px;
+        left: 450px;
+        background-color: rgb(66, 56, 121);
+
+    }
+
+    56% {
+        top: 350px;
+        left: 450px;
+        background-color: rgb(27, 14, 97);
+
+    }
+
+    64% {
+        top: 350px;
+        left: 400px;
+        background-color: rgb(16, 7, 63);
+
+    }
+
+    72% {
+        top: 400px;
+        left: 400px;
+        background-color: rgb(27, 12, 107);
+
+    }
+
+    80% {
+        top: 400px;
+        left: 350px;
+        background-color: rgb(122, 112, 181);
+
+    }
+
+    88% {
+        top: 350px;
+        left: 350px;
+        background-color: rgb(53, 47, 86);
+
+    }
+
+    96% {
+        top: 350px;
+        left: 300px;
+        background-color: rgb(53, 48, 79);
+
+    }
+
+    100% {
+        top: 300px;
+        left: 300px;
+        background-color: rgb(30, 10, 139);
+
+    }
+
+}
